@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OGNL", "OGNL\OGNL.csproj", "{02F01FD5-3F40-41BA-900E-EDA004BF43E1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3F1213FE-BE0D-4EAB-B134-B5E21D6B42CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{02F01FD5-3F40-41BA-900E-EDA004BF43E1} = {02F01FD5-3F40-41BA-900E-EDA004BF43E1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {66DD9915-7B23-4BFF-9661-75AA6AAC1CB0}
+		SccProjectUniqueName1 = OGNL\\OGNL.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = OGNL\\
+		SccProjectUniqueName2 = Test\\Test.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Test\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{02F01FD5-3F40-41BA-900E-EDA004BF43E1}.Debug.ActiveCfg = Debug|.NET
+		{02F01FD5-3F40-41BA-900E-EDA004BF43E1}.Debug.Build.0 = Debug|.NET
+		{02F01FD5-3F40-41BA-900E-EDA004BF43E1}.Release.ActiveCfg = Release|.NET
+		{02F01FD5-3F40-41BA-900E-EDA004BF43E1}.Release.Build.0 = Release|.NET
+		{3F1213FE-BE0D-4EAB-B134-B5E21D6B42CB}.Debug.ActiveCfg = Debug|.NET
+		{3F1213FE-BE0D-4EAB-B134-B5E21D6B42CB}.Debug.Build.0 = Debug|.NET
+		{3F1213FE-BE0D-4EAB-B134-B5E21D6B42CB}.Release.ActiveCfg = Release|.NET
+		{3F1213FE-BE0D-4EAB-B134-B5E21D6B42CB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

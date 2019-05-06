@@ -1,8 +1,3 @@
-# OGNL.Net
-Clone of OGNL.Net project from Sourceforge (https://sourceforge.net/projects/ognlnet/)
-
-ORIGINAL releasenote
-====================
 Pre Alpha build 3, 10/25/2005
 - Add Enum type convert code, see OgnlOps.cs
 - Add Enum test case, see EnumTest.cs
