@@ -4,6 +4,7 @@
  * Copyright 2003 Sun Microsystems, Inc. All rights reserved.
  * SUN PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
  */
+using System;
 
 namespace java.util
 {
@@ -105,7 +106,7 @@ namespace java.util
 		 *
 		 * @return <tt>true</tt> if this list contains no elements.
 		 */
-		boolean isEmpty();
+		bool isEmpty();
 
 		/**
 		 * 
@@ -121,7 +122,7 @@ namespace java.util
 		 * @// throws NullPointerException if the specified element is null and this
 		 *         list does not support null elements (optional).
 		 */
-		boolean contains(Object o);
+		bool contains(System.Object o);
 
 		/**
 		 * Returns an iterator over the elements in this list in proper sequence.
@@ -157,7 +158,7 @@ namespace java.util
 		 * 		  this list.
 		 * @// throws NullPointerException if the specified array is <tt>null</tt>.
 		 */
-		Object[] toArray(Object a[]);
+		Object[] toArray(Object[] a);
 
 
 		// Modification Operations
@@ -186,7 +187,7 @@ namespace java.util
 		 * @// throws IllegalArgumentException if some aspect of this element
 		 *            prevents it from being added to this list.
 		 */
-		boolean add(Object o);
+		bool add(Object o);
 
 		/**
 		 * Removes the first occurrence in this list of the specified element 
@@ -204,7 +205,7 @@ namespace java.util
 		 * @// throws UnsupportedOperationException if the <tt>remove</tt> method is
 		 *		  not supported by this list.
 		 */
-		boolean remove(Object o);
+		bool remove(Object o);
 
 
 		// Bulk Modification Operations
@@ -227,7 +228,7 @@ namespace java.util
 		 *         <tt>null</tt>.
 		 * @see #contains(Object)
 		 */
-		boolean containsAll(Collection c);
+		bool containsAll(Collection c);
 
 		/**
 		 * Appends all of the elements in the specified collection to the end of
@@ -252,7 +253,7 @@ namespace java.util
 		 *         list.
 		 * @see #add(Object)
 		 */
-		boolean addAll(Collection c);
+		bool addAll(Collection c);
 
 		/**
 		 * Inserts all of the elements in the specified collection into this
@@ -284,7 +285,7 @@ namespace java.util
 		 * @// throws IndexOutOfBoundsException if the index is out of range (index
 		 *		  &lt; 0 || index &gt; size()).
 		 */
-		boolean addAll(int index, Collection c);
+		bool addAll(int index, Collection c);
 
 		/**
 		 * Removes from this list all the elements that are contained in the
@@ -307,7 +308,7 @@ namespace java.util
 		 * @see #remove(Object)
 		 * @see #contains(Object)
 		 */
-		boolean removeAll(Collection c);
+		bool removeAll(Collection c);
 
 		/**
 		 * Retains only the elements in this list that are contained in the
@@ -332,7 +333,7 @@ namespace java.util
 		 * @see #remove(Object)
 		 * @see #contains(Object)
 		 */
-		boolean retainAll(Collection c);
+		bool retainAll(Collection c);
 
 		/**
 		 * Removes all of the elements from this list (optional operation).  This
@@ -361,7 +362,7 @@ namespace java.util
 		 * @param o the object to be compared for equality with this list.
 		 * @return <tt>true</tt> if the specified object is equal to this list.
 		 */
-		boolean equals(Object o);
+		bool equals(Object o);
 
 		/**
 		 * Returns the hash code value for this list.  The hash code of a list
@@ -506,7 +507,7 @@ namespace java.util
 		 * @return a list iterator of the elements in this list (in proper
 		 * 	       sequence).
 		 */
-		ListIterator listIterator();
+		Iterator listIterator();
 
 		/**
 		 * Returns a list iterator of the elements in this list (in proper
@@ -523,7 +524,7 @@ namespace java.util
 		 * @// throws IndexOutOfBoundsException if the index is out of range (index
 		 *         &lt; 0 || index &gt; size()).
 		 */
-		ListIterator listIterator(int index);
+		Iterator listIterator(int index);
 
 		// View
 

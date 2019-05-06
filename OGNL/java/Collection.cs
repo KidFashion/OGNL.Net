@@ -114,7 +114,7 @@ namespace java.util
 		 * @// throws NullPointerException if the specified element is null and this
 		 *         collection does not support null elements (optional).
 		 */
-		boolean contains(Object o);
+		bool contains(Object o);
 
 		/**
 		 * Returns an iterator over the elements in this collection.  There are no
